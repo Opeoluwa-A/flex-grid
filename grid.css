@@ -1,0 +1,80 @@
+* {
+  padding:0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  height: 100%;
+  width: 100%;
+}
+header{
+  height: 10vh;
+  width: 100%;
+}
+main{
+  /* margin: auto; */
+  height: 90vh;
+  width: 100%;
+  place-items: center;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.a {
+  grid-area: A;
+  background-color: rgb(147, 226, 43);
+}
+.b {
+  grid-area: B;
+  background-color: rgb(43, 153, 226)
+}
+.c {
+  grid-area: C;
+  background-color: blueviolet
+}
+.d {
+  grid-area: D;
+  background-color: rgb(226, 43, 202)
+}
+.e {
+  grid-area: E;
+  background-color: rgb(43, 226, 119)
+}
+
+.all{
+  height: 400PX;
+  width: 45%;
+  display: grid;
+  grid-template-areas: 
+  'A A A A A B B'
+  'A A A A A B B'
+  'A A A A A B B'
+  'C C C D D D D' 
+  'C C C D D D D'
+  'C C C E E E E'
+  'C C C E E E E'
+  ;
+  gap:  15px;
+}
+.led{
+  padding: 10px;
+  background-color: green;
+  color: white;
+  width: 150px;
+  border-radius: 115px;
+  border:none;
+  
+}
+a{
+  text-decoration: none;
+  color: rgb(247, 207, 207);
+
+}
+a:hover{
+  color: rgb(254, 255, 255);
+}
+.led:hover{ background-color: purple;
+}
+
+
