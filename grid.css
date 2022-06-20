@@ -59,7 +59,7 @@ main{
 }
 .led{
   padding: 10px;
-  background-color: green;
+  background-color: rgb(40, 3, 107);
   color: white;
   width: 150px;
   border-radius: 115px;
@@ -74,7 +74,7 @@ a{
 a:hover{
   color: rgb(254, 255, 255);
 }
-.led:hover{ background-color: purple;
+.led:hover{ background-color: rgb(20, 63, 129);
 }
 
 
